@@ -1,25 +1,18 @@
 {
-
-  "manifest_version": 2,
+  "manifest_version": 3,
+  
   "name": "TermoWiki",
   "version": "1.0",
-
   "description": "Shows metadata about wiki pages reliability",
 
   "icons": {
     "48": "icons/logo-48.png"
   },
 
-  "browser_action": {
+  "permissions": ["activeTab"],
+
+  "action": {
     "default_title": "TermoWiki Plugin",
     "default_popup": "popup/popup.html"
-  },
-
-  "content_scripts": [
-    {
-      "matches": ["*://*.wikipedia.org/*"],
-      "js": ["termowiki.js"]
-    }
-  ]
-
+  }
 }

@@ -10,3 +10,8 @@ As of September 2022, the tool has Portuguese interface only.
 Our project also features educational material (e.g. infographics) on how to evaluate information from Wikipedia.  
 
 
+# Authors
+
+Team: Felipe Argolo, João Gabriel de Paula, Juliane Bazzo, Lisiane Müller, Nubia Marques & Tiago Lubiana.
+
+Contributors: Elias Carvalho

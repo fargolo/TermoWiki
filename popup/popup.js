@@ -27,6 +27,8 @@ async function main() {
 
     let referenceUrl = `https://xtools.wmflabs.org/articleinfo/${project}/${article}?uselang=${project}`;
 
+    references.innerHTML = prose.references;
+
     fullReference.href = referenceUrl;
   }
 }
